@@ -38,3 +38,4 @@ for (let i = 0; i < cellEl.length; i++) {
     console.log("Changed the color" + thisCell.textContent);
   });
 }
+// L'utente clicca su un bottone che genererà una griglia di gioco quadrata.
