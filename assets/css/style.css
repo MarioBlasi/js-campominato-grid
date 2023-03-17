@@ -11,3 +11,19 @@ footer {
   border: 1px solid black;
   background-color: rgba(33, 69, 70, 0.171);
 }
+.container-main {
+  display: flex;
+  flex-flow: row wrap;
+  width: 70%;
+  margin: 5rem auto;
+}
+
+.cell {
+  width: calc(100% / 10);
+  border: 2px solid rgb(179, 5, 5);
+  aspect-ratio: 1/1;
+}
+
+.bg_blue {
+  background-color: lightskyblue;
+}
