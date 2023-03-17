@@ -4,7 +4,7 @@
 // Quando l'utente clicca su ogni cella, la cella cliccata si colora di azzurro ed
 // emetto un messaggio in console con il numero della cella cliccata.
 
-/* Creare una griglia1 0x10
+/* Creare una griglia 10x10
 
  Ogni volta che clicco su un quadrato si colora di azzurro */
 
@@ -17,8 +17,9 @@ const container = document.querySelector(".container-main");
 let nMax = 100;
 // creo un ciclo n volte per le celle (dove n in questo caso sta per 100)
 
-for (let i = 0; i < nMax; i++) {
-  const cell = `<div class="cell"></div>`;
+for (let i = 1; i <= nMax; i++) {
+  // aggiungendo  la variabile ${i} numereremo le celle progressivamente
+  const cell = `<div class="cell">${i}</div>`;
   container.innerHTML += cell;
 }
 
@@ -33,6 +34,7 @@ for (let i = 0; i < cellEl.length; i++) {
   thisCell.addEventListener("click", function () {
     thisCell.classList.toggle("bg_blue");
     // this.classList.add("active")
-    console.log("Changed the color");
+    //AGGIUNGIAMO textContent per impostare il testo interno della cella.
+    console.log("Changed the color" + thisCell.textContent);
   });
 }

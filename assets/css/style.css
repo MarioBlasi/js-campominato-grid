@@ -1,29 +1,32 @@
 header {
   background-color: rgb(181, 235, 236);
 }
-.col {
-  border: 1px solid black;
-}
 main {
   background-color: aquamarine;
 }
 footer {
   border: 1px solid black;
-  background-color: rgba(33, 69, 70, 0.171);
+  background-color: rgba(186, 216, 218, 0.171);
 }
 .container-main {
   display: flex;
   flex-flow: row wrap;
-  width: 70%;
+  width: 80%;
   margin: 5rem auto;
 }
-
+.col {
+  border: 1px solid black;
+}
 .cell {
   width: calc(100% / 10);
-  border: 2px solid rgb(179, 5, 5);
+  border: 1px solid black;
   aspect-ratio: 1/1;
 }
 
 .bg_blue {
-  background-color: lightskyblue;
+  background-color: lightblue;
 }
+/* ul#box li {
+  float: left;
+  list-style: none;
+} */
