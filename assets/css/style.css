@@ -49,15 +49,8 @@ img {
 }
 .push {
   display: flex;
-  vertical-align: middle;
+
   height: 4rem;
-}
-.btn-group > .button-drop {
-  background-color: rgb(49, 223, 127);
-  border-radius: 1rem;
-  margin-left: 2rem;
-  width: 6rem;
-  height: 2rem;
 }
 
 .play > button {
@@ -81,6 +74,24 @@ img {
   transition: background-position 0.4s, background-size 0s;
 }
 .play > button:active {
+  box-shadow: 0 0 9e9Q inset #0009;
+  background-color: var(--c);
+  color: #fff;
+}
+
+/*------------------------*/
+/* Dropdown Button */
+.btn-group > button {
+  height: 2rem;
+  box-shadow: 0 0 0 0.1em inset var(--c);
+  border: 2px solid black;
+  vertical-align: bottom;
+}
+.btn-group > button:hover {
+  --_p: 100%;
+  transition: background-position 0.4s, background-size 0s;
+}
+.btn-group > button:active {
   box-shadow: 0 0 9e9Q inset #0009;
   background-color: var(--c);
   color: #fff;
