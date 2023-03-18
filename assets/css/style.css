@@ -26,6 +26,11 @@ img {
   aspect-ratio: 1/1;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
     rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  transform: translateZ(-50px) rotateY(180deg);
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Verdana, sans-serif;
+  padding-top: 1.5rem;
 }
 
 .bg_blue {
@@ -49,14 +54,14 @@ img {
 }
 .push {
   display: flex;
-
   height: 4rem;
 }
 
 .play > button {
+  height: 2.2rem;
   border-radius: 0.5rem;
-  margin-left: 2rem;
-  width: 6rem;
+  margin-left: 1rem;
+  width: 8rem;
   --c: aquamarine; /* the color*/
 
   box-shadow: 0 0 0 0.1em inset var(--c);
@@ -82,17 +87,16 @@ img {
 /*------------------------*/
 /* Dropdown Button */
 .btn-group > button {
-  height: 2rem;
+  width: 8rem;
+  height: 2.2rem;
   box-shadow: 0 0 0 0.1em inset var(--c);
   border: 2px solid black;
-  vertical-align: bottom;
+  border: 2px solid black aquamarine;
 }
 .btn-group > button:hover {
-  --_p: 100%;
-  transition: background-position 0.4s, background-size 0s;
+  background-color: aquamarine;
 }
 .btn-group > button:active {
-  box-shadow: 0 0 9e9Q inset #0009;
+  box-shadow: 0 0 9e9Q inset aquamarine;
   background-color: var(--c);
-  color: #fff;
 }
