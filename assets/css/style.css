@@ -7,7 +7,6 @@ header {
 main {
   background-color: aquamarine;
 }
-
 img {
   max-width: 100%;
 }
@@ -18,7 +17,6 @@ img {
   width: 50%;
   margin: 2rem auto;
 }
-
 .cell {
   width: calc(100% / 10);
   border: 1px solid black;
@@ -32,7 +30,6 @@ img {
   font-family: Arial, Verdana, sans-serif;
   padding-top: 1.5rem;
 }
-
 .bg_blue {
   --c: #fff; /* text color */
   background: linear-gradient(90deg, #0000 33%, #fff5, #0000 67%)
@@ -46,24 +43,22 @@ img {
   outline-offset: 0.1em;
   transition: 0.3s;
 }
-
 .titolo > span {
   font-size: 45px;
   vertical-align: middle;
   white-space: nowrap;
 }
+/* -------Play--Button------ */
 .push {
   display: flex;
   height: 4rem;
 }
-
 .play > button {
   height: 2.2rem;
   border-radius: 0.5rem;
   margin-left: 1rem;
   width: 8rem;
   --c: aquamarine; /* the color*/
-
   box-shadow: 0 0 0 0.1em inset var(--c);
   --_g: linear-gradient(var(--c) 0 0) no-repeat;
   background: var(--_g) calc(var(--_p, 0%) - 100%) 0%,
@@ -83,9 +78,7 @@ img {
   background-color: var(--c);
   color: #fff;
 }
-
-/*------------------------*/
-/* Dropdown Button */
+/* ---------Dropdown-- Button--------- */
 .btn-group > button {
   width: 8rem;
   height: 2.2rem;

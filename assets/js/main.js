@@ -44,7 +44,6 @@ con difficoltà 3 => 49 caselle, con un numero compreso tra 1 e 49,
 divise in 7 caselle per 7 righe;*/
 
 //------------//
-
 /*per aggiungere la selezione livello di difficoltá utilizziamo in HTML
   un menu a discesa (bootstrap) */
 
